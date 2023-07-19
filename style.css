@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -8,25 +8,27 @@
     font-family: 'Cairo', sans-serif;
 }
 
-.hero{
+.hero {
     width: 100%;
     height: 100vh;
     background-color: #002456;
     position: relative;
     overflow: hidden;
 }
-.hero::after{
+
+.hero::after {
     content: '';
     position: absolute;
-        width: 50%;
-        height: 100%;
-        top: 0;
-        right: 50px;
-        background: linear-gradient(#edcf2e , #e1c1a4        );
-        clip-path: polygon(20% 0, 60% 0, 100% 100%, 60% 100%);
-        z-index: 1;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    right: 50px;
+    background: linear-gradient(#edcf2e, #e1c1a4);
+    clip-path: polygon(20% 0, 60% 0, 100% 100%, 60% 100%);
+    z-index: 1;
 }
-.hero header{
+
+.hero header {
     position: fixed;
     top: 0;
     left: 0;
@@ -38,39 +40,42 @@
     align-items: center;
     z-index: 100;
 }
-body div > header a > img {
+
+body div>header a>img {
     width: 130px;
     height: 130px;
     margin-top: 30px;
-  }
+}
 
 
-  .nav-links {
+.nav-links {
     /* Styles for regular horizontal display */
     display: flex;
     flex-direction: row;
     direction: rtl;
-  }
-  
+}
 
-.hero header  .nav-links a{
+
+.hero header .nav-links a {
     color: #fff;
     font-size: 18px;
     margin-left: 70px;
-   
+
 }
 
-.hero .content .div-img{
+.hero .content .div-img {
     width: 27%;
     position: absolute;
     bottom: -5px;
     right: 10%;
     z-index: 100;
 }
-.hero .content .div-img img{
+
+.hero .content .div-img img {
     width: 100%;
 }
-.hero .content .div-text{
+
+.hero .content .div-text {
     position: absolute;
     left: 5%;
     top: 50%;
@@ -80,26 +85,30 @@ body div > header a > img {
     text-align: center;
 
 }
-.content .div-text h3{
+
+.content .div-text h3 {
     color: #fff;
     font-size: 35px;
     margin-top: 200px;
     text-align: center;
 
 }
-.content .div-text h1{
+
+.content .div-text h1 {
     color: #edcf2e;
     font-size: 45px;
     font-weight: bold;
     text-align: center;
 
 }
-.content .div-text p{
+
+.content .div-text p {
     color: #efefef;
     margin: 15px 0 50px;
     line-height: 1.5;
 }
-.content .div-text .btn{
+
+.content .div-text .btn {
     color: #fff;
     padding: 15px 40px;
     background: #edcf2e;
@@ -108,41 +117,46 @@ body div > header a > img {
     font-weight: bold;
     border: 2px solid #edcf2e;
 }
-.content .div-text .btn:hover{
+
+.content .div-text .btn:hover {
     background: transparent;
 }
-.content .div-text .soc-links{
+
+.content .div-text .soc-links {
     margin-top: 40px;
 }
-.content .div-text .soc-links a{
+
+.content .div-text .soc-links a {
     color: #fff;
     font-size: 25px;
     margin-left: 15px;
 }
-.content .div-text .soc-links a:hover{
+
+.content .div-text .soc-links a:hover {
     color: #edcf2e;
 }
 
 a:hover {
     text-decoration: underline;
-  }
+}
 
-  
-  @media (max-width: 768px) {
+footer {
+    background: linear-gradient(#e1c1a4, #edcf2e);
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
     /* Styles for smaller screens (e.g., mobile devices) */
 
-    body {
-        font-size: 14px;
-      }
-
     .nav-links {
- 
 
-display: flex;
-  flex-direction: column;
-  text-align: right;
-  font-size: 14px;
 
-      
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        font-size: smaller;
+
+
     }
-  }
+}
