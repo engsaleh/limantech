@@ -8,6 +8,13 @@
     font-family: 'Cairo', sans-serif;
 }
 
+body {
+    margin:0px;
+    width:100vw;
+    height:100vh;
+    overflow:auto;
+  }
+
 .hero {
     width: 100%;
     height: 100vh;
@@ -96,10 +103,17 @@ body div>header a>img {
 
 .content .div-text h1 {
     color: #edcf2e;
-    font-size: 45px;
+    font-size: 33px;
     font-weight: bold;
     text-align: center;
 
+}
+
+.content .div-text h2 {
+    color: #e1c1a4;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .content .div-text p {
@@ -108,19 +122,6 @@ body div>header a>img {
     line-height: 1.5;
 }
 
-.content .div-text .btn {
-    color: #fff;
-    padding: 15px 40px;
-    background: #edcf2e;
-    font-size: 20px;
-    border-radius: 30px;
-    font-weight: bold;
-    border: 2px solid #edcf2e;
-}
-
-.content .div-text .btn:hover {
-    background: transparent;
-}
 
 .content .div-text .soc-links {
     margin-top: 40px;
