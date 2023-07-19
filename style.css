@@ -152,12 +152,14 @@ footer {
 
     .nav-links {
 
-
         display: flex;
         flex-direction: column;
         text-align: right;
         font-size: smaller;
 
+    }
 
+        .div-text {
+        margin-top: 70px;
     }
 }
